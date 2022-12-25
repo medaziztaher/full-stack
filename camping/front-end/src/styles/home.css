@@ -1,0 +1,112 @@
+/* body{
+    height: 100%;
+    margin:0px; 
+    font-family: serif;
+} */
+.home{
+    background-image:url("../imgs/bgimg.jpg")  ;
+    height: 710px;
+    margin:0px; 
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.parag1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #1f5449;
+    /* margin-top: 200px ;
+    margin-bottom: 20px; */
+}
+.parag2{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.cp a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.cp{
+    width: 300px;
+    margin: 0px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;    
+    background:linear-gradient(#107869,#1A5653);;
+    border-radius: 5px ;
+}
+
+.gn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 265px;
+}
+
+#twitter{
+    height: 25px;
+    width: 20px;
+}
+
+#instagram{
+    height: 20px;
+    width: 20px;
+}
+#fb{
+    height: 20px;
+    width: 25px;
+}
+
+#slogo{
+    width: 110px;
+}
+
+.all{
+    width: 100%;
+    display: block;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #107869;
+    color: #ffffff;
+}
+.img1{
+    width: 50%; }
+
+
+@media screen and (max-width: 792px){
+    .navbar_icon{
+        display: flex;
+    }
+    .social{
+        display: none;
+    }
+
+    .mininav{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .parag1{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+    }
+    .parag2{
+        font-size: 20px;
+    }
+}
